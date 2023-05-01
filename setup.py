@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="rmp",
+    name="rmpy",
     version="0.1.0",
     description="A Python module for interacting with RateMyProfessors.com",
-    author="Your Name",
-    author_email="your.email@example.com",
-    url="https://github.com/yourusername/rmp",  # Replace with the URL of your project repository
+    author="lumirth",
+    author_email="lu@mirth.cc",
+    url="https://github.com/lumirth/rmpy",  # Replace with the URL of your project repository
     packages=find_packages(),
     install_requires=[
         "aiohttp",
