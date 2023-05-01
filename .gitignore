@@ -1,0 +1,26 @@
+# .gitignore
+
+# Ignore Python build and distribution files
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Ignore virtual environment directories
+venv/
+.env/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore pytest cache directory
+.pytest_cache/
